@@ -1,0 +1,14 @@
+#sonia-header {
+	background-color: #5c4033;
+	width: 100vw;
+	height: 10vh;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+p {
+	margin: 1vw;
+}
