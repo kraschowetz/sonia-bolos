@@ -1,0 +1,1 @@
+- usar 2 imagens, uma com W maior e outra com H maior, para responsividade (?)
