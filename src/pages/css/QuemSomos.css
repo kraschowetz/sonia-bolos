@@ -17,6 +17,10 @@
 	padding: 1%;
 }
 
+.content-div p {
+	text-align: justify;
+}
+
 .content-div h1 {
 	color: white;
 	font-weight: normal;
@@ -41,4 +45,34 @@
 .contact-button div h2 {
 	text-decoration: none;
 	color: white;
+}
+
+@media screen and (max-width: 600px) {
+	.conainer {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr, 1fr;
+	}
+
+	.content-div {
+		display: flex;
+		flex-direction: column;
+		width: 66vw;
+		margin: 2.5vw;
+		padding: 1%;
+		justify-content: center;
+	}
+	
+	.contact-button div {
+		width: 66vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0px;
+		margin-top: 1vh;
+	}
+
+	.contact-button div h2 {
+		font-size: 12pt;
+	}
 }

@@ -1,0 +1,25 @@
+#contact-button {
+	width: 5vw;
+	height: 5vw;
+	background-color: #50ba63;
+	border-radius: 100%;
+	position: fixed;
+	bottom: 1vh;
+	right: 1vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#contact-button img {
+	width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+	#contact-button {
+		top: 95vh;
+		left: 90vw;
+		width: 7.5vw;
+		height: 7.5vw;
+	}
+}
