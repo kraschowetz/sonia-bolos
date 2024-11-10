@@ -5,6 +5,7 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: #5c4033;
 }
 
 code {
@@ -14,6 +15,7 @@ code {
 
 p {
 	color: white;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 a {

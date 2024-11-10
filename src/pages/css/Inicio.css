@@ -1,7 +1,42 @@
 #inicio {
 	width: 100vw;
 	height: 90vh;
-	background-image: url("https://i.pinimg.com/736x/43/36/7d/43367dbd6994803227e08ece5093e942.jpg");
+	background-image: url("https://cozinharoman.com/wp-content/uploads/2015/08/Bolo-de-Fuba-cozinharoman-min.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#text-block {
+	display: block;
+	left: 37.5vw;
+	top: 40%;
+	width: 25vw;
+}
+
+#text-block h1 {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+	font-size: 30pt;
+}
+
+#contact-button {
+	width: 5vw;
+	height: 5vw;
+	background-color: #50ba63;
+	border-radius: 100%;
+	position: fixed;
+	bottom: 1vh;
+	right: 1vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#contact-button img {
+	width: 75%;
 }

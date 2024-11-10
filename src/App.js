@@ -1,10 +1,17 @@
 import SoniaHeader from './components/SoniaHeader.js'
+import ContactButton from './components/ContactButton.js';
+import Inicio from './pages/Inicio'
+import QuemSomos from './pages/QuemSomos.js';
 
 function App() {
 return (
-	<div>
+	<main>
 		<SoniaHeader/>
-	</div>
+		<ContactButton/>
+		
+		<Inicio/>
+		<QuemSomos/>
+	</main>
 );
 }
 

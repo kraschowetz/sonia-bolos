@@ -1,17 +1,20 @@
 import React from "react";
-import SoniaHeader from '../components/SoniaHeader.js'
 
 import "./css/Inicio.css"
 
 function Inicio() {
 	return (
-		<div>
-			<SoniaHeader />
+		<section id="inicio">
+			<div id="text-block">
+				<h1>
+					"Transformando Momentos
+					em Doces Lembranças, Para
+					Celebrar Todos os Momentos
+					da Vida!"
+				</h1>
+			</div>
+		</section>
 
-			<section id="inicio">
-
-			</section>
-		</div>
 	);
 }
 

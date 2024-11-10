@@ -1,0 +1,44 @@
+#quem-somos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.conainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.content-div {
+	display: block;
+	width: 30vw;
+	margin: 2.5vw;
+	padding: 1%;
+}
+
+.content-div h1 {
+	color: white;
+	font-weight: normal;
+	font-size: 30pt;
+}
+
+.content-div img {
+	height: 100%;
+	border-radius: 1%;
+	box-shadow: 5px 5px 5px black;
+}
+
+.contact-button div {
+	background-color: #a97233;
+	border-radius: 10px;
+	width: fit-content;
+	padding: .125%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.contact-button div h2 {
+	text-decoration: none;
+	color: white;
+}

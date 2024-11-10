@@ -1,0 +1,32 @@
+#sonia-header {
+	background-color: #5c4033;
+	width: 100vw;
+	height: 10vh;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+#sonia-header img {
+	height: 90%;
+}
+
+p {
+	margin: 1vw;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+@media screen and (max-width: 600px) {
+	p {
+		margin: 1.25vw;
+		font-size: 10pt;
+	}
+
+	#sonia-header img {
+		height: 75%;
+		margin: 2vw;
+	}
+}
