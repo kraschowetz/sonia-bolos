@@ -13,14 +13,18 @@
 	height: 90%;
 }
 
-p {
+#sonia-header a p {
 	margin: 1vw;
 	font-weight: bold;
 	font-size: 14pt;
 }
 
+#sonia-header a p:hover {
+	color: #463128;
+}
+
 @media screen and (max-width: 600px) {
-	p {
+	#sonia-header a p {
 		margin: 1.25vw;
 		font-size: 10pt;
 	}

@@ -19,6 +19,7 @@
 
 .content-div p {
 	text-align: justify;
+	font-size: 14pt;
 }
 
 .content-div h1 {
@@ -28,18 +29,22 @@
 }
 
 .content-div img {
-	height: 100%;
+	width: 100%;
 	border-radius: 1%;
 	box-shadow: 5px 5px 5px black;
 }
 
 .contact-button div {
-	background-color: #a97233;
+	background-color: #a97132;
 	border-radius: 10px;
 	width: fit-content;
 	padding: .125%;
 	padding-left: 5%;
 	padding-right: 5%;
+}
+
+.contact-button div:hover {
+	background-color: #463128;
 }
 
 .contact-button div h2 {
@@ -61,6 +66,10 @@
 		margin: 2.5vw;
 		padding: 1%;
 		justify-content: center;
+	}
+
+	.content-div p {
+		font-size: 8pt;
 	}
 	
 	.contact-button div {
