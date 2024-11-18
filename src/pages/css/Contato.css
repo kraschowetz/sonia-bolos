@@ -1,0 +1,30 @@
+#contato {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+
+	align-items: center;
+
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+}
+
+#contato h1 {
+	color: white;
+	font-size: xx-large;
+}
+
+#ctt-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 5vh;
+}
+
+#ctt-grid h3 {
+	text-align: center;
+	color: white;
+}
+
+iframe {
+	width: 95vw;
+}

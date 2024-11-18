@@ -28,7 +28,8 @@
 
 @media screen and (max-width: 600px) {
 	#inicio {
-		background-size: 215% 100%;
+		background-size: 456% 100%;
+		background-position: -175vw;
 	}
 	#text-block {
 		left: 25vw;

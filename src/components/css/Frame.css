@@ -1,0 +1,35 @@
+#frame {
+	background-color: white;
+	width: 40vh;
+	height: 50vh;
+	border-radius: 1vh;
+
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+
+	justify-content: center;
+	align-items: center;
+}
+
+#frame img {
+	width: 100%;
+	border-radius: 1vh;
+}
+
+#info {
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+#info h1 {
+	width: 100%;
+	font-weight: normal;
+	text-align: center;
+}
+
+#info h2 {
+	width: 100%;
+	font-size: large;
+	text-align: center;
+
+}
