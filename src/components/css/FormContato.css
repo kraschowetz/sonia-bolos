@@ -18,4 +18,15 @@ button {
 	box-shadow: none;
 	border-color: transparent;
 	background-color: #a97232;
+	color: white;
+}
+
+button:hover {
+	background-color: #463128;
+}
+
+#msg {
+	width: 25vw;
+	height: 6vh;
+	resize: none;
 }

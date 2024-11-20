@@ -6,6 +6,8 @@ import Cardapio from './pages/Cardapio.js';
 import Contato from './pages/Contato.js';
 import SoniaFooter from './components/SoniaFooter.js';
 
+window.onload = function() {};
+
 function App() {
 return (
 	<main>

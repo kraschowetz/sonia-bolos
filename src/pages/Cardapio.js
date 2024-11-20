@@ -17,6 +17,11 @@ function Cardapio() {
 				<Frame img="bolo-1.jpeg" name="BOLO DE CHOCOLATE" price="32,48"/>
 				<Frame img="bolo-1.jpeg" name="BOLO DE CHOCOLATE" price="32,48"/>
 			</div>
+			
+			<a href="reserva">
+				reservar
+			</a>
+
 		</section>
 	);
 }

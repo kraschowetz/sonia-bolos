@@ -8,13 +8,13 @@ function SoniaHeader() {
 			<a href="/">
 				<p>inicio</p>
 			</a>
-			<a href="#quem-somos">
+			<a href="/#quem-somos">
 				<p>quem somos</p>
 			</a>
-			<a href="#cardapio">
+			<a href="/#cardapio">
 				<p>bolos</p>
 			</a>
-			<a href="TODO">
+			<a href="/#contato">
 				<p>contato</p>
 			</a>
 		</header>

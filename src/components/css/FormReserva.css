@@ -1,0 +1,25 @@
+#reserva {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 50vw;
+}
+
+#grid div {
+	display: flex;
+	flex-direction: column;
+}
+
+#form-reserva button {
+	margin-top: 1rem;
+	color: white;
+}
+
+#form-reserva button:hover {
+	background-color: #463128;
+}

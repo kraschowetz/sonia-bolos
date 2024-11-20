@@ -38,7 +38,7 @@ function QuemSomos() {
 						merece uma experiência única. Seja bem-vindo
 						ao nosso mundo doce e recheado de amor.
 					</p>
-					<a href="TODO" className="contact-button">
+					<a href="#contato" className="contact-button">
 						<div>
 							<h2>entrar em contato</h2>
 						</div>

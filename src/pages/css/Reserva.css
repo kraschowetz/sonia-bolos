@@ -1,0 +1,10 @@
+#reserva {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#reserva h1 {
+	color: white;
+}
